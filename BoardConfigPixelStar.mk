@@ -1,5 +1,6 @@
 #
 # Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 Project-PixelStar
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,7 +10,7 @@ TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_DEADLINE := true
 TARGET_HEALTH_CHARGING_CONTROL_SUPPORTS_TOGGLE := false
 
 # Manifests
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/lineage/config/device_framework_matrix.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/pixelstar/config/device_framework_matrix.xml
 DEVICE_MANIFEST_FILE += \
     device/google/zuma/android.hardware.security.rkp-service.citadel.xml \
     device/google/zuma/manifest_radio_ds.xml
@@ -34,7 +35,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Reserve space for gapps install
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/pixelstar/config/BoardConfigReservedSize.mk
 
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3

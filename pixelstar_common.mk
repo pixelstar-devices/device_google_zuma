@@ -1,11 +1,12 @@
 #
 # Copyright (C) 2023 The LineageOS Project
+# Copyright (C) 2024 Project-PixelStar
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += device/google/zuma/overlay-pixelstar
 
 # AiAi Config
 PRODUCT_COPY_FILES += \
